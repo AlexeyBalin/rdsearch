@@ -1,12 +1,12 @@
 <?php
 
 ini_set("default_charset",'utf-8');
-include_once("./lib.php");
-include_once("./indexer.class.php");
+include_once("./includes/lib.php");
+include_once("./includes/rdsearch.class.php");
 
 setlocale(LC_ALL, 'ru_RU.UTF-8');
 
-$ind = new indexer();
+$ind = new RDSearch();
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +18,6 @@ $ind = new indexer();
 	</style> 
     </head>
     <body style="margin: 20px;">
-	<a href="http://doshare.ru/"><img style="float: left; margin-right:100px;" src="http://doshare.ru/logo_DS_.png" /></a>
 	<form action="search.php">
 	    <div style="height: 50px; float: left;padding-top: 10px;">
 	    <strong>Поиск</strong>:
