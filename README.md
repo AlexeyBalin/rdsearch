@@ -1,4 +1,7 @@
 # rdsearch
+
+Fulltext search based on RedisDb
+
 Полнотекстовый поиск с использованием базы RedisDb ( http://redis.io )
 
 Проект создан для тестирования возможности создания полнотекстового поиска на базе RedisDB. 
@@ -6,4 +9,9 @@
 
 В примере показано индексирование базы Wordpress (таблица wp_posts)
 
-тестовый поиск http://doshare.ru/search/search.php
+тестовый поиск: http://www.business-top.info/search/search.php
+
+-------------
+
+
+
